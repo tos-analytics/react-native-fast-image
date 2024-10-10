@@ -237,6 +237,10 @@
             }];
 }
 
+- (void)setOnClick:(id)sender {
+    // Implementation can be left empty as in the Swift version
+}
+
 - (void) dealloc {
     [self sd_cancelCurrentImageLoad];
 }
